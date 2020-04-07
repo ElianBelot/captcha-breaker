@@ -1,7 +1,7 @@
-<!-- PROJECT LOGO -->
+
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="#">
 	  <img src="https://i.imgur.com/5XWoAcH.png">
  </a>
 
