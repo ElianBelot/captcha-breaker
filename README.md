@@ -11,12 +11,10 @@
  <br />
 
 
-<br />
 # About
 
 This is an Optical Character Recognition algorithm that uses a Deep Convolutional Neural Network trained on the [Wilhelmy, Rodrigo & Rosas, Horacio. (2013). captcha dataset](https://www.researchgate.net/publication/248380891_captcha_dataset) in order to extract text out of [CAPTCHA images](http://www.captcha.net/).
 
-<br />
 # Network architecture
 
 The base architecture of the network is defined as follows:
@@ -52,7 +50,6 @@ The model is then compiled using the categorical cross-entropy loss function and
 Finally, an inference function is used to convert the network's prediction into a string corresponding to the CAPTCHA code, along with the network's confidence in its prediction.
 
 
-<br />
 # Built with...
 Here are the libraries used for creating and training the model:
 * [Keras](https://keras.io/) — creating the model, training and making predictions
