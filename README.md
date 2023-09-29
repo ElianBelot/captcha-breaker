@@ -7,15 +7,15 @@
 
 <h3 align="center">CAPTCHA Breaker</h3>
 <p align="center">
-    A Deep Convolutional Neural Network trained to extract text out of CAPTCHA images.
+    Extracting text out of CAPTCHA images using Keras.
  <br />
 
 
-# About
+## About
 
 This is an Optical Character Recognition algorithm that uses a Deep Convolutional Neural Network trained on the [Wilhelmy, Rodrigo & Rosas, Horacio. (2013). captcha dataset](https://www.researchgate.net/publication/248380891_captcha_dataset) in order to extract text out of [CAPTCHA images](http://www.captcha.net/).
 
-# Network architecture
+## Network architecture
 
 The base architecture of the network is defined as follows:
 ```python
@@ -50,8 +50,7 @@ The model is then compiled using the categorical cross-entropy loss function and
 Finally, an inference function is used to convert the network's prediction into a string corresponding to the CAPTCHA code, along with the network's confidence in its prediction.
 
 
-# Built with...
-Here are the libraries used for creating and training the model:
+## Built with...
 * [Keras](https://keras.io/) — creating the model, training and making predictions
 * [Numpy](https://numpy.org/) — math operations, data preprocessing
 * [OpenCV](https://opencv.org/) — reading and converting images
